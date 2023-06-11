@@ -127,8 +127,8 @@ public class Basics {
     public static String split(String to_split) {
 
         StringBuilder ret = new StringBuilder();
-        String[] split = to_split.split(" ", 7);
-        for (String k : split) {
+        String[] split = to_split.split(" ");
+        for (String k : split)  {
             ret.append(k.charAt(0));
         }
 
